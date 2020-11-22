@@ -35,6 +35,7 @@ public class step extends TestCase {
 	public void click_login_button() {
 		step ste1=new step();
 	   search(ste1.getBtnSearch());
+	   System.out.println("Hi Java");
 	   	}
 
 	@Then("User should print the product name and price.")
